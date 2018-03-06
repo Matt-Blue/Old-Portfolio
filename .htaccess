@@ -1,0 +1,11 @@
+
+RewriteEngine on
+DirectoryIndex MatthewBluestein.htm
+RewriteCond %{HTTP_HOST} ^sigrhouf\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.sigrhouf\.com$
+RewriteRule ^/?$ "http\:\/\/sigmabetarhouf\.com" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^ufsigrho\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ufsigrho\.com$
+RewriteRule ^/?$ "http\:\/\/sigmabetarhouf\.com" [R=301,L]
+
